@@ -5,7 +5,7 @@ let numeroB = parseFloat(prompt("Scegli un altro numero:")); //number
 
 //Il software stampa il maggiore.
 
-let maggiore, minore;
+let maggiore, minore; //string
 
 //Stampare numeroA se è maggiore di numeroB
 if (numeroA > numeroB) {
@@ -21,11 +21,11 @@ else if (numeroB > numeroA) {
 
 //in caso l'utente inserisca lo stesso numero due volte
 else {
-    console.log('I numeri corrispondono')
+    console.log('I numeri corrispondono') //string
 }
 
 //stampare il numero maggiore per primo
-console.log('Numero maggiore:' + maggiore);
-console.log('Numero minore:' + minore);
+console.log('Numero maggiore:' + maggiore); //number
+console.log('Numero minore:' + minore); //number
 
  
