@@ -17,7 +17,7 @@ document.getElementById('formNumeri').addEventListener('submit', function(event)
         let numeroCasuale = Math.floor(Math.random() * 11);
         console.log("Numero casuale " + i + ": " + numeroCasuale);  //string
 
-        if (Math.abs(numeroElement - numeroCasuale) < 0.001) {
+        if (numeroElement === numeroCasuale) {
             numeroVincente = true;  //boolean
     
             //stampare biglitto in caso di vincita
